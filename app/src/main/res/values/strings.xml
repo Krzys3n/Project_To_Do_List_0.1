@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Projekt_To_Do_List_0.1</string>
+    <string name="To_Do_list">To Do List</string>
+
+    <string name="przejdz_Do_Listy">Przejdź do listy</string>
+    <string name="powrot_Do_Menu">Powrót do menu</string>
+
 </resources>

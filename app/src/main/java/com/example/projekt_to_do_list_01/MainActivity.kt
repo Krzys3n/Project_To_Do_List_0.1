@@ -1,5 +1,6 @@
 package com.example.projekt_to_do_list_01
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
@@ -16,5 +17,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.nazwaAplikacji.text = "To Do List wersja: "+mainVm.randomowaZmiennaDouble  // przykład użycia binding, bez bindingu nie moglibyśmy się dostać do naszego komponentu.
+
+        binding.PrzejdzDoListy.setOnClickListener(){
+
+            val explicitIntent = Intent(applicationContext,ListaZadan::class.java)
+            startActivity(explicitIntent) // Ta i poprzdnia linijka porzwalają przechodzić między aktywnościami
+        }
+
     }
+
+
 }

@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+
+        android:text="Zjedz śniadanie"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:id="@+id/nazwa_Zadania"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="20.11 9:30"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:id="@+id/data_wykonania_Zadania"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
