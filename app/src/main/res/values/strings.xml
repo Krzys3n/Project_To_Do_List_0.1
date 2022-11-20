@@ -4,5 +4,8 @@
 
     <string name="przejdz_Do_Listy">Przejdź do listy</string>
     <string name="powrot_Do_Menu">Powrót do menu</string>
-
+    <string name="Powrot">Powrót</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="przycisk_szczeguly">Szczegóły</string>
 </resources>
